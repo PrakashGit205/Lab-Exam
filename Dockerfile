@@ -1,2 +1,2 @@
 FROM httpd
-COPY index.html /usr/local/apache2/htdocs
+COPY newfile.js /usr/local/apache2/htdocs
