@@ -1,2 +1,10 @@
-FROM httpd
-COPY newfile.js /usr/local/apache2/htdocs
+FROM node
+
+
+WORKDIR /src
+
+COPY . . 
+
+EXPOSE 3000
+
+CMD node newfile.js
